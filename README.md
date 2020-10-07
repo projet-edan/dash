@@ -28,59 +28,33 @@ Edan masternodes provide proof of service and additional network security. They 
 
 Sporks are a mechanism to safely deploy and activate new functionality after updating the node software. This mechanism was first implemented by Dash. Sporks are used to ensure simultaneous updates of the entire network so that the new logic is applied correctly. Sporks are activated with a special service message broadcast from one of the developer addresses across the network. Self-regulation, anonymity, fast payments, masternode services and the spork mechanism make Edan one of the best blockchains. However, there is one feature that may scare some users off - the Proof of Work consensus algorithm. While consensus is implemented more efficiently in Dash than in Bitcoin, it still consumes a lot of time and energy.
 
+
+Edan algorithm
+---------------
+
+Proof of Work
+
+Proof of Work (PoW) is a type of blockchain consensus algorithm that authorizes transactions through the mining of blocks that are ultimately added to the blockchain. This goal is achieved through the use of mining platforms.
+
+Proof of service
+
+Proof of Service (PoSe) is a type of consensus algorithm where some people who wish to participate in consensus on the network provide a certain amount of coins called a wager which is usually in the base currency of the blockchain network. They are then allowed to participate in consensus by verifying transactions, adding blocks, and voting in certain decisions. They have a chance of losing some or all of their stake if they turn out to be dishonest, and they are rewarded if they act honestly. This serves as an incentive to drive honesty into the consensus process.
+
+Mission note
+-------------
+
+Edan believes that Blockchain technology will remove transaction barriers, increase the efficiency of transactions in society, and ultimately have a huge impact on the global economy. We aspire to change the world, especially Africa, and to never stop innovating to improve the comfort of our community.
+
+Safe & Anonymous
+Security is another very important point on which today's world stands. By using Electra you can make secure payments be done, which gives confidence to the community.
+
+Treasury system
+Another feature of Edan is the system of Treasury. Along with most other cryptocurrencies, all newly mined coins go to miners. In the network Edan, 45% go to miners, 45% go to masternodes and 10% of the newly mined coins go to a DAO municipal treasury, which finances the development of Edan.
+
 License
 -------
 
-Dash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Edan Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
-Development Process
--------------------
 
-The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/dashpay/dash/tags) are created to indicate new official,
-stable release versions of Dash Core.
-
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`. Further details on running
-and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
-
-There are also [regression and integration tests](/test), written
-in Python, that are run automatically on the build server.
-These tests can be run (if the [test dependencies](/test) are installed) with: `test/functional/test_runner.py`
-
-The Travis CI system makes sure that every pull request is built for Windows, Linux, and OS X, and that unit/sanity tests are run automatically.
-
-### Manual Quality Assurance (QA) Testing
-
-Changes should be tested by somebody other than the developer who wrote the
-code. This is especially important for large or high-risk changes. It is useful
-to add a test plan to the pull request description if testing the changes is
-not straightforward.
-
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[Dash Core's Transifex page](https://www.transifex.com/projects/p/dash/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
-Translators should also follow the [forum](https://www.dash.org/forum/topic/dash-worldwide-collaboration.88/).
