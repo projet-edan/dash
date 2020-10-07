@@ -1,22 +1,20 @@
-Dash Core staging tree 0.16
+Edan Core staging tree 0.16
 ===========================
 
-`master:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=master)](https://travis-ci.org/dashpay/dash) `develop:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=develop)](https://travis-ci.org/dashpay/dash/branches)
-
-https://www.dash.org
 
 
-What is Dash?
+https://www.projetedan.org
+
+
+What is Edan?
 -------------
 
-Dash is an experimental digital currency that enables instant, private
-payments to anyone, anywhere in the world. Dash uses peer-to-peer technology
-to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Dash Core is the name of the open
-source software which enables the use of this currency.
+Edan, a user-focused cryptocurrency, which you can spend anywhere, anytime and anytime what amount for charges less than 1 cent.
+The users may decide to take advantage of optional privacy offers by Edan. Edan uses Proof of Service (PoSe) and Proof of Work (PoW) to secure his blockchain. 
+Proof of work is provided by minors, while proofs of service are provided by masternodes, where some people are ready to implant a certain amount of Edan in the network to show their commitment to the network and specific tasks.
 
 For more information, as well as an immediately useable, binary version of
-the Dash Core software, see https://www.dash.org/get-dash/.
+the Dash Core software, see https://www.projetedan.org/get-edan/.
 
 
 License
